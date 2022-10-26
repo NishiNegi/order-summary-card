@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  color: rgba(136, 141, 158, 255);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+p,
+a {
+  font-weight: 500;
+}
+b {
+  color: rgba(36, 49, 78, 255);
+}
+img{
+    display: block;
+    width: 100%;
+}
+#container {
+  text-align: center;
+}
+#header-img{
+}
+section {
+  background-color: rgba(255, 255, 255, 255);
+  padding: 1em;
+}
+h1 {
+  color: rgba(36, 49, 78, 255);
+  font-weight: 900;
+}
+#summary {
+  align-items: center;
+  background-color: rgba(248, 249, 254, 255);
+  border-radius: 0.5em;
+  display: flex;
+  margin: 3em 0;
+  padding: 1em;
+}
+#music-icon {
+  height: 2.5em;
+  margin-right:1em;
+  width: 2.5em;
+}
+#plan-info {
+  display: flex;
+  flex-direction: column;
+}
+#change-plan {
+  color: rgba(82, 69, 199, 255);
+  font-weight: 700;
+  margin-left: auto;
+}
+#change-plan:hover{
+    color: rgba(118,108,241,255);
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+}
+#proceed{
+    background-color: rgba(56,42,225,255);
+    border-radius: .5em;
+    box-shadow: 0px 2em 2em -1em rgba(56,42,225,0.4);
+    color: rgba(255, 255, 255, 255);
+    margin-bottom: 2em;
+    padding: 1em;
+    text-decoration: none;
+}
+#proceed:hover{
+    background-color: rgba(118,108,241,255);
+}
+#cancel{
+    font-weight: 700;
+    text-decoration: none;
+}
+#cancel:hover{
+    color: rgba(36, 49, 78, 255);
+    font-weight: 900;
+}
