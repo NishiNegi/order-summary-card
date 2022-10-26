@@ -1,4 +1,4 @@
-# Make It Real - NAME OF THE PROJECT
+# Make It Real - Order summary card
 
 This is a solution to the Order summary card project of the Make It Real course.
 
